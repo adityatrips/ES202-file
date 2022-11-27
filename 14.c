@@ -15,9 +15,9 @@ void main()
     scanf("%c", &dec);
 
     printf("Enter operand one: ");
-    scanf("%d", &op1);
-    printf("Enter operand one: ");
-    scanf("%d", &op1);
+    scanf("%f", &op1);
+    printf("Enter operand two: ");
+    scanf("%f", &op2);
 
     switch (dec) {
     case 'A':
@@ -37,7 +37,7 @@ void main()
         printf("\n%.2f / %.2f = %.2f", op1, op2, (op1 / op2));
         break;
     case 'O':
-        printf("\n%d \% %d = %d", (int)op1, (int)op2, ((int)op1 % (int)op2));
+        printf("\n%d mod %d = %d", (int)op1, (int)op2, ((int)op1 % (int)op2));
         break;
     }
 }

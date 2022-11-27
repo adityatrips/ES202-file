@@ -12,6 +12,6 @@ void main()
     } else if (s < 90) {
         printf("Acute!");
     } else {
-        printf("Right!")
+        printf("Right!");
     }
 }
