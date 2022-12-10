@@ -1,6 +1,5 @@
-.vscode/
+/.vscode
 /img
-tempCodeRunnerFile.c
 *.exe
-!*.c
 !.gitignore
+tempCodeRunnerFile.c
