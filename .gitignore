@@ -1,9 +1,7 @@
 **
-!**/Outputs
-!Outputs/*.*
-!**/Images
-!**/Images/**
-!Images/*.*
+*.*
+**/*
+**/**
+tempCodeRunnerFile.c
 !*.c
 !.gitignore
-tempCodeRunnerFile.c
