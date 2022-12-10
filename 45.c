@@ -2,14 +2,15 @@
 
 void main()
 {
-    int space, k = 0;
-    for (int i = 1; i <= 4; i++, k = 0) {
-        for (int space = 1; space <= 4 - i; space++) {
-            printf("  ");
+    for (int i = 1; i <= 4; i++) {
+        for (int j = 1; j <= 4 - i; j++) {
+            printf(" ");
         }
-        while (k != 2 * i - 1) {
-            printf("%d ", space);
-            k++;
+        for (int k = 1; k <= i; k++) {
+            printf("%d", k);
+        }
+        for (int m = i - 1; m >= 1; m--) {
+            printf("%d", m);
         }
         printf("\n");
     }
